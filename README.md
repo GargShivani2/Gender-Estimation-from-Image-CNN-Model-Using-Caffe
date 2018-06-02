@@ -4,6 +4,7 @@ Required Dependencies
 - Python 
 - opencv
 - Caffe
+
 To install Caffe refer this  - ( https://github.com/GargSH/Caffe-Installation-Process )
 
 Once all the dependencies were sucessfully installed git clone the repository and Extract it -
