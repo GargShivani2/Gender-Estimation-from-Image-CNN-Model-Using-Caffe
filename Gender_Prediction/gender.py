@@ -18,7 +18,7 @@ mean  = caffe.io.blobproto_to_array(a)[0]
 
 #Load gender pretrained model
 gender_pretrained_model ='./gender_net.caffemodel'
-gender_model_file='./gender_net_definitions/deploy.prototxt'
+gender_model_file='./gender_model/deploy.prototxt'
 gender = caffe.Classifier(gender_model_file, gender_pretrained_model,
                        mean=mean,
                        channel_swap=(2,1,0),
